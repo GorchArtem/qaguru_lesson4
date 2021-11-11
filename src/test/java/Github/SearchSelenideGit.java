@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class SearchSelenideGit {
 
     @Test
-    void ShouldFindPageSoftAssertionsAndExampleCode(){
+    void shouldFindPageSoftAssertionsAndExampleCode(){
         // Открыть страницу Selenide в Github
         open("https://github.com/");
         $("[data-test-selector=nav-search-input]").setValue("selenide").pressEnter();
